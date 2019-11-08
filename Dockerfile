@@ -3,6 +3,8 @@ FROM circleci/python:3.7.4
 
 RUN sudo apt-get update
 
+RUN sudo apt-get install rsync
+
 RUN sudo pip install --upgrade pip
 RUN sudo pip install awscli
 
