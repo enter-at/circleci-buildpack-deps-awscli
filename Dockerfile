@@ -1,5 +1,5 @@
 FROM circleci/buildpack-deps:stretch
-FROM circleci/python:3.7.4
+FROM circleci/python:3.8.0
 
 RUN sudo apt-get update
 
@@ -8,7 +8,7 @@ RUN sudo apt-get install rsync
 RUN sudo pip install --upgrade pip
 RUN sudo pip install awscli
 
-ENV TERRAFORM_VERSION="0.12.9"
+ENV TERRAFORM_VERSION="0.12.17"
 
 RUN sudo curl -fsSLO --compressed https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip
 RUN sudo unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip -d /bin

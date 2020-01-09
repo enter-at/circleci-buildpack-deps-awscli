@@ -1,0 +1,57 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: circleci-buildpack-deps-awscli
+
+# Tags of this project
+tags:
+  - docker
+  - circleci
+  - terraform
+  - python
+  - nodejs
+
+# License of this project
+license: "APACHE2"
+
+# Canonical GitHub repo
+github_repo: enter-at/circleci-buildpack-deps-awscli
+
+# Badges to display
+badges:
+  - name: "Build Status"
+    image: "https://github.com/enter-at/circleci-buildpack-deps-awscli/workflows/Docker%20Lint/badge.svg"
+    url: "https://github.com/enter-at/circleci-buildpack-deps-awscli/actions"
+  - name: "Latest Release"
+    image: "https://img.shields.io/github/release/enter-at/circleci-buildpack-deps-awscli.svg"
+    url: "https://github.com/enter-at/circleci-buildpack-deps-awscli/releases/latest"
+  - name: "Semantic Release"
+    image: "https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg"
+    url: "https://github.com/semantic-release/semantic-release"
+
+# Short description of this project
+description: |-
+  A Docker container that includes CircleCI build deps with:
+  - Python
+  - AWS CLI
+  - Node.js
+  - Terraform
+
+# How to use this project
+introduction: |-
+  Container versions are as follows:
+
+  ```
+  <py-version>-<revision>
+  ```
+
+  So for example, `3.8.0-1` would be the first container revision with python 3.8.0.
+
+# Contributors to this project
+contributors:
+  - name: "Steffen Leistner"
+    github: "sleistner"
