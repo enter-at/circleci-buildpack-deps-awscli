@@ -55,3 +55,9 @@ tags
 
 # IntelliJ
 out/
+
+.build-harness
+build-harness
+.README.md.gotmpl
+
+.idea
