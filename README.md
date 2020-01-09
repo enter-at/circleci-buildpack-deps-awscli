@@ -12,7 +12,7 @@ Container versions are as follows:
 <py-version>-<revision>
 ```
 
-So for example, `3.7.4-1` would be the first container revision with Terraform 3.7.4.
+So for example, `3.8.0-1` would be the first container revision with python 3.8.0.
 
 ## Building for Dockerhub
 
