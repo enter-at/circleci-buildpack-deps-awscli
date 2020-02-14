@@ -8,7 +8,7 @@ RUN sudo apt-get install rsync
 RUN sudo pip install --upgrade pip
 RUN sudo pip install awscli
 
-ENV TERRAFORM_VERSION="0.12.18"
+ENV TERRAFORM_VERSION="0.12.20"
 
 RUN sudo curl -fsSLO --compressed https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip
 RUN sudo unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip -d /bin
