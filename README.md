@@ -17,6 +17,7 @@
 
 A Docker container that includes CircleCI build deps with:
 - Python 3
+- yamllint
 - AWS CLI
 - Node.js
 - Terraform
