@@ -7,6 +7,7 @@ RUN sudo apt-get install rsync
 
 RUN sudo pip install --upgrade pip
 RUN sudo pip install awscli
+RUN sudo pip install yamllint
 
 ENV TERRAFORM_VERSION="0.12.25"
 

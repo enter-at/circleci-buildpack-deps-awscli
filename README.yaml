@@ -14,6 +14,7 @@ tags:
   - terraform
   - python
   - nodejs
+  - yamllint
 
 # License of this project
 license: "APACHE2"
@@ -37,6 +38,7 @@ badges:
 description: |-
   A Docker container that includes CircleCI build deps with:
   - Python 3
+  - yamllint
   - AWS CLI
   - Node.js
   - Terraform
