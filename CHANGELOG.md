@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/enter-at/circleci-buildpack-deps-awscli/compare/v1.1.0...v1.2.0) (2020-08-24)
+
+
+### Features
+
+* add yamllint ([1e44d14](https://github.com/enter-at/circleci-buildpack-deps-awscli/commit/1e44d14e57a32b6f73d4f203ae2964d1d9e81943))
+
 # [1.1.0](https://github.com/enter-at/circleci-buildpack-deps-awscli/compare/v1.0.1...v1.1.0) (2020-02-14)
 
 
