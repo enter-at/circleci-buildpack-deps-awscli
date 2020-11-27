@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/enter-at/circleci-buildpack-deps-awscli/compare/v1.2.0...v1.2.1) (2020-11-27)
+
+
+### Bug Fixes
+
+* downgrade terraform version ([c9cc87b](https://github.com/enter-at/circleci-buildpack-deps-awscli/commit/c9cc87b6c80c1705500ab2a11530f065567737dc))
+
 # [1.2.0](https://github.com/enter-at/circleci-buildpack-deps-awscli/compare/v1.1.0...v1.2.0) (2020-08-24)
 
 
