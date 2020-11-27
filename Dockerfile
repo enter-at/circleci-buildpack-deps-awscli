@@ -9,7 +9,7 @@ RUN sudo pip install --upgrade pip
 RUN sudo pip install awscli
 RUN sudo pip install yamllint
 
-ENV TERRAFORM_VERSION="0.12.25"
+ENV TERRAFORM_VERSION="0.13.5"
 
 RUN sudo curl -fsSLO --compressed https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip
 RUN sudo unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip -d /bin
