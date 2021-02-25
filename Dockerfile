@@ -15,7 +15,7 @@ RUN sudo curl -fsSLO --compressed https://releases.hashicorp.com/terraform/${TER
 RUN sudo unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip -d /bin
 RUN sudo rm -f terraform_${TERRAFORM_VERSION}_linux_amd64.zip
 
-ENV NODE_VERSION="12.13.0"
+ENV NODE_VERSION="14.16.0"
 
 RUN sudo curl -fsSLO --compressed https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.xz
 RUN sudo tar -xJf node-v${NODE_VERSION}-linux-x64.tar.xz -C /usr/local --strip-components=1 --no-same-owner
