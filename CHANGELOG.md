@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/enter-at/circleci-buildpack-deps-awscli/compare/v1.2.1...v1.3.0) (2021-02-25)
+
+
+### Features
+
+* update nodejs version to 14.16.0 ([8b0ad6f](https://github.com/enter-at/circleci-buildpack-deps-awscli/commit/8b0ad6f0744d3ea430413d28f55712f6aefd400e))
+
 ## [1.2.1](https://github.com/enter-at/circleci-buildpack-deps-awscli/compare/v1.2.0...v1.2.1) (2020-11-27)
 
 
