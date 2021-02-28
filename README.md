@@ -10,9 +10,8 @@
 
   -->
 
-[<img src="https://res.cloudinary.com/enter-at/image/upload/v1576145406/static/logo-svg.svg" alt="enter-at" width="100">][website]
-
-# circleci-buildpack-deps-awscli [![Build Status](https://github.com/enter-at/circleci-buildpack-deps-awscli/workflows/Docker%20Lint/badge.svg)](https://github.com/enter-at/circleci-buildpack-deps-awscli/actions) [![Latest Release](https://img.shields.io/github/release/enter-at/circleci-buildpack-deps-awscli.svg)](https://github.com/enter-at/circleci-buildpack-deps-awscli/releases/latest) [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+# circleci-buildpack-deps-awscli
+ [![Build Status](https://github.com/enter-at/circleci-buildpack-deps-awscli/workflows/Docker%20Lint/badge.svg)](https://github.com/enter-at/circleci-buildpack-deps-awscli/actions) [![Latest Release](https://img.shields.io/github/release/enter-at/circleci-buildpack-deps-awscli.svg)](https://github.com/enter-at/circleci-buildpack-deps-awscli/releases/latest) [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 
 A Docker container that includes CircleCI build deps with:
@@ -31,15 +30,8 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 
 
-## Introduction
 
-Container versions are as follows:
 
-```
-<py-version>-<revision>
-```
-
-So for example, `3.8.0-1` would be the first container revision with python 3.8.0.
 
 
 
@@ -106,14 +98,3 @@ See [LICENSE](LICENSE) for full details.
 
 
 
-
-### Contributors
-
-[![Steffen Leistner][sleistner_avatar]][sleistner_homepage]
-
-  [sleistner_homepage]: https://github.com/sleistner
-  [sleistner_avatar]: https://res.cloudinary.com/enter-at/image/fetch/f_png,r_max,w_100,h_100,c_thumb/https://github.com/sleistner.png
-
-
-
-  [website]: https://github.com/enter-at
