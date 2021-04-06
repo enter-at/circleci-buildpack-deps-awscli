@@ -1,5 +1,5 @@
 FROM circleci/buildpack-deps:stretch
-FROM circleci/python:3.8.0
+FROM circleci/python:3.9.4
 
 RUN sudo apt-get update
 
